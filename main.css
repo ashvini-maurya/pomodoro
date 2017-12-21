@@ -1,0 +1,64 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	font-size: 500%;
+	font-family: Lobster, Monospace;
+	color: #00D000;
+}
+
+.row {
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+	color: #00D000;
+}
+
+.circle {
+	vertical-align: middle;
+	color: #00D000;
+	border: 2px solid #00D000;
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	margin-left: 40%;
+
+  	display: block;
+  	padding: 2px;
+/*   	margin-top: 50px auto 0 auto; */
+}
+
+#status {
+	text-align: center;
+	line-height: 65px;	
+  font-size: 350%;
+}
+
+.top-row {
+  margin-top: 20px;
+}
+
+.bottom-row {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  margin: 5px;
+}
+
+#progress {
+  font-size: 350%
+}
+
+#load-bar {
+  	width: 290px; 
+  	height: 290px;
+  	border-radius: 100%;
+  	margin-left: 0%;
+  	margin-top: -66%;
+}

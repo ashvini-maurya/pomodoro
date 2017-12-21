@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <audio id="buzzer" src="audio/times-up.mp3"></audio>
+  <title>PomodoroClock</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class='container-fluid'>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1 class='text-primary'>Pomodoro Clock</h1>
+      </div>
+    </div>
+
+    <div class="row top-row">
+      <div class="col-xs-6 col-md-6 text-primary">
+        <h5>BREAK LENGTH</h5>
+      </div>
+      <div class="col-xs-6 col-md-6 text-primary">
+        <h5>SESSION LENGTH</h5>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-6 col-md-6">
+        <button type="button" class="btn btn-link btn-sm" id="minus">-</button>
+        <button type="button" class="btn btn-link btn-lg" id="break-time">5</button>
+        <button type="button" class="btn btn-link btn-sm" id="plus">+</button>
+      </div>
+      <div class="col-xs-6 col-md-6">
+        <button type="button" class="btn btn-link btn-sm" id="minus2">-</button>
+        <button type="button" class="btn btn-link btn-lg" id="work-time">25</button>
+        <button type="button" class="btn btn-link btn-sm" id="plus2">+</button>
+      </div>
+    </div>
+
+    <div class="circle">
+      <div class="row top-row text-primary">
+        <h2 id="status">Session</h2>
+        <p id="progress">progress</p>
+      </div>
+      <div id="load-bar"></div>
+    </div>
+    
+    <div class="row bottom-row">
+      <button type="button" id="start" class="btn btn-primary">Start</button>
+      <button type="button" id="reset" class="btn btn-danger">Reset</button>
+    </div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
